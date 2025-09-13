@@ -1,0 +1,264 @@
+# Node.js .gitignore
+# Comprehensive exclusions for Node.js projects
+# Covers dependencies, environment files, build outputs, logs, caches, IDE files, OS files, and more
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Package manager lock files (uncomment if using Yarn or pnpm exclusively)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Yarn
+.yarn/cache
+.yarn/config
+.yarn/install-state.gz
+
+# Rollup.js default build output
+dist/
+
+# Uncomment these lines if you are using Vercel
+.vercel
+
+# Uncomment these lines if you are using Netlify
+.netlify/
+
+# Uncomment these lines if you are using Surge
+.surge/
+
+# Uncomment these lines if you are using Firebase
+.firebase/
+
+# Uncomment these lines if you are using Heroku
+.heroku/
+
+# Uncomment these lines if you are using AWS
+.aws/
+
+# Uncomment these lines if you are using Docker
+.dockerignore
+Dockerfile*
+docker-compose*.yml
+.docker/
+
+# Uncomment these lines if you are using Kubernetes
+kubeconfig
+*.kubeconfig
+
+# Uncomment these lines if you are using Terraform
+.terraform/
+*.tfstate
+*.tfvars
+
+# Uncomment these lines if you are using Ansible
+ansible.cfg
+inventory
+*.retry
+
+# Uncomment these lines if you are using Jenkins
+Jenkinsfile
+
+# Uncomment these lines if you are using CircleCI
+.circleci/
+
+# Uncomment these lines if you are using Travis CI
+.travis.yml
+
+# Uncomment these lines if you are using GitHub Actions
+.github/
+
+# Uncomment these lines if you are using GitLab CI
+.gitlab-ci.yml
+
+# Uncomment these lines if you are using Azure Pipelines
+azure-pipelines.yml
+
+# Uncomment these lines if you are using Bitbucket Pipelines
+bitbucket-pipelines.yml
+
+# Uncomment these lines if you are using CodeShip
+codeship-services.yml
+codeship-steps.yml
+
+# Uncomment these lines if you are using Semaphore
+.semaphore/
+
+# Uncomment these lines if you are using Buildkite
+.buildkite/
+
+# Uncomment these lines if you are using Drone
+.drone.yml
+
+# Uncomment these lines if you are using AppVeyor
+appveyor.yml
+
+# Uncomment these lines if you are using Wercker
+wercker.yml
+
+# Uncomment these lines if you are using Magnum CI
+magnum-ci.yml
+
+# Uncomment these lines if you are using Solano CI
+solano.yml
+
+# Uncomment these lines if you are using Snap CI
+snap-ci.yml
+
+# Uncomment these lines if you are using Codeship Pro
+codeship-pro-services.yml
+codeship-pro-steps.yml
+
+# Uncomment these lines if you are using Buddy
+buddy.yml
+
+# Uncomment these lines if you are using Nevercode
+nevercode.yml
+
+# Uncomment these lines if you are using Greenhouse
+greenhouse.yml
+
+# Uncomment these lines if you are using LayerCI
+layerci.yml
+
+# Uncomment these lines if you are using Strider
+strider.json
+
+# Uncomment these lines if you are using Magnum
+magnum.json
+
+# Uncomment these lines if you are using Solano
+solano.json
+
+# Uncomment these lines if you are using Snap
+snap.json
+
+# Uncomment these lines if you are using Codeship
+codeship.json
+
+# Uncomment these lines if you are using Buddy
+buddy.json
+
+# Uncomment these lines if you are using Nevercode
+nevercode.json
+
+# Uncomment these lines if you are using Greenhouse
+greenhouse.json
+
+# Uncomment these lines if you are using LayerCI
+layerci.json
