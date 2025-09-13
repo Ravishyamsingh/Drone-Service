@@ -4,6 +4,7 @@
 -- Enable necessary extensions
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
+
 -- Drop existing tables first (to fix column name issues)
 DROP TABLE IF EXISTS notifications CASCADE;
 DROP TABLE IF EXISTS operators CASCADE;
