@@ -39,8 +39,10 @@ app.use((req, res, next) => {
 
 // Rate limiting middleware (simple implementation)
 const requestCounts = new Map();
-const RATE_LIMIT_WINDOW = 15 * 60 * 1000; // 15 minutes
-const MAX_REQUESTS = 100; // requests per window
+const RATE_LIMIT_WINDOW = 15 * 60 * 1000; 
+// 15 minutes
+const MAX_REQUESTS = 100; 
+// requests per window
 
 app.use((req, res, next) => {
     const clientId = req.ip;
