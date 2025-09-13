@@ -7,6 +7,8 @@ const router = express.Router();
 // Import SSE functions for real-time updates
 let sseEvents = null;
 try {
+
+    
     sseEvents = require('./events');
 } catch (error) {
     console.warn('SSE events module not loaded:', error.message);
