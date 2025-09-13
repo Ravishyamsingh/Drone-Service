@@ -1,4 +1,5 @@
 // DroneFlow - Server-Sent Events (SSE) Route for Real-time Updates
+//about drone service
 
 const express = require('express');
 const router = express.Router();
