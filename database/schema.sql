@@ -1,7 +1,5 @@
 -- DroneFlow Database Schema for Supabase
 -- Run this SQL in your Supabase SQL editor to set up the database
-
--- Enable necessary extensions
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
 -- Create service_requests table
